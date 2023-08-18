@@ -5,7 +5,7 @@
   left: 0;
   width: 280px;
   height: 100%;
-  background: white;
+  background: #36454f;
   z-index: 2000;
   font-family: var(--lato);
   transition: 0.5s ease-out;
@@ -22,11 +22,11 @@
 #sidebar .logo {
   display: flex;
   align-items: center;
-  padding: 22px  12px;
+  padding: 22px 12px;
   box-shadow: rgba(151, 170, 210, 0.2) 0px 7px 29px 0px;
 }
 #sidebar .logo img {
- width: 120px;
+  width: 120px;
 }
 #sidebar .side-menu {
   width: 100%;
@@ -34,7 +34,7 @@
 }
 
 #sidebar .side-menu li:nth-child(1) {
-  background: var(--grey);
+  background: #36454f;
   position: relative;
 }
 
@@ -50,10 +50,12 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  color: white;
+  border-radius: 50%;
 }
 .menuIconHidden {
   display: none;
-  color: black;
+  color: white;
 }
 
 /* Top Bar */
@@ -71,7 +73,8 @@
 
 #content nav {
   height: 75px;
-  background: white;
+  background: #36454f;
+  color: white;
   padding: 0 24px;
   display: flex;
   align-items: center;
@@ -94,11 +97,11 @@
   align-items: center;
 }
 #content nav a {
-  color: var(--dark);
+  color: white;
 }
 #content nav .menuIcon {
   cursor: pointer;
-  color: var(--dark);
+  color: white;
   font-size: 22px;
 }
 #content nav .menuIcon:hover {

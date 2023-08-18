@@ -24,3 +24,197 @@ export const barData = [
 export const pieData = [{ name: "Group A", value: 400 }];
 
 export const COLORS = ["#0088FE", "#00C49F", "#FFBB28", "#FF8042"];
+
+export const data = [
+  {
+    name: "Sairam",
+    email: "john@example.com",
+    class: "Mathematics",
+    access: true,
+    edit: true,
+    delete: true,
+  },
+  {
+    name: "Prashanth",
+    email: "alice@example.com",
+    class: "Physics",
+    access: true,
+    edit: true,
+    delete: true,
+  },
+  {
+    name: "Michael Brown",
+    email: "michael@example.com",
+    class: "Biology",
+    access: true,
+    edit: true,
+    delete: true,
+  },
+  {
+    name: "Emily Davis",
+    email: "emily@example.com",
+    class: "Chemistry",
+    access: true,
+    edit: true,
+    delete: true,
+  },
+  {
+    name: "Daniel Wilson",
+    email: "daniel@example.com",
+    class: "History",
+    access: true,
+    edit: true,
+    delete: true,
+  },
+  {
+    name: "Sophia Martinez",
+    email: "sophia@example.com",
+    class: "English",
+    access: true,
+    edit: true,
+    delete: true,
+  },
+  {
+    name: "David Anderson",
+    email: "david@example.com",
+    class: "Computer Science",
+    access: true,
+    edit: true,
+    delete: true,
+  },
+  {
+    name: "Olivia Miller",
+    email: "olivia@example.com",
+    class: "Art",
+    access: true,
+    edit: true,
+    delete: true,
+  },
+  {
+    name: "Liam Thompson",
+    email: "liam@example.com",
+    class: "Physical Education",
+    access: true,
+    edit: true,
+    delete: true,
+  },
+  {
+    name: "Ava White",
+    email: "ava@example.com",
+    class: "Music",
+    access: true,
+    edit: true,
+    delete: true,
+  },
+];
+
+export const adminData = [
+  {
+    name: "Saikrishna",
+    email: "saikrishna@example.com",
+    class: "Physics",
+    access: true,
+    edit: true,
+    delete: true,
+  },
+  {
+    name: "Michael Brown",
+    email: "michael@example.com",
+    class: "Biology",
+    access: true,
+    edit: true,
+    delete: true,
+  },
+];
+
+export const tutorData = [
+  {
+    name: "Ajay",
+    email: "saikrishna@example.com",
+    class: "Physics",
+    access: "true",
+    edit: "true",
+    delete: "true",
+  },
+  {
+    name: "Mahesh",
+    email: "michael@example.com",
+    class: "Biology",
+    access: "true",
+    edit: "true",
+    delete: "true",
+  },
+];
+
+export const studentData = [
+  {
+    name: "John Doe",
+    email: "john@example.com",
+    class: "10A",
+    quiz_attended: 5,
+    points: 320,
+  },
+  {
+    name: "Jane Smith",
+    email: "jane@example.com",
+    class: "9B",
+    quiz_attended: 4,
+    points: 280,
+  },
+  {
+    name: "Michael Johnson",
+    email: "michael@example.com",
+    class: "11C",
+    quiz_attended: 6,
+    points: 390,
+  },
+  {
+    name: "Emily Brown",
+    email: "emily@example.com",
+    class: "10A",
+    quiz_attended: 3,
+    points: 230,
+  },
+  {
+    name: "William Davis",
+    email: "william@example.com",
+    class: "9A",
+    quiz_attended: 5,
+    points: 340,
+  },
+  {
+    name: "Olivia Wilson",
+    email: "olivia@example.com",
+    class: "11B",
+    quiz_attended: 4,
+    points: 270,
+  },
+  {
+    name: "James Taylor",
+    email: "james@example.com",
+    class: "10C",
+    quiz_attended: 6,
+    points: 410,
+  },
+  {
+    name: "Sophia Martinez",
+    email: "sophia@example.com",
+    class: "9B",
+    quiz_attended: 3,
+    points: 240,
+  },
+  {
+    name: "Liam Anderson",
+    email: "liam@example.com",
+    class: "11A",
+    quiz_attended: 5,
+    points: 360,
+  },
+  {
+    name: "Ava Hernandez",
+    email: "ava@example.com",
+    class: "10B",
+    quiz_attended: 4,
+    points: 290,
+  },
+];

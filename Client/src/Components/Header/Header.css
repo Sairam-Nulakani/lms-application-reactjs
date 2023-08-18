@@ -5,6 +5,8 @@
   grid-gap: 16px;
   padding: 18px 25px;
   box-shadow: rgba(184, 184, 184, 0.1) 0px 4px 4px;
+  color: white;
+  background-color: #36454f;
 }
 .head-left {
   font-size: 24px;

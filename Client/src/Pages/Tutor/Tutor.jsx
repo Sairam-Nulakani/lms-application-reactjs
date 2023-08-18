@@ -12,6 +12,7 @@ import TutorRow from "../../Components/Table/TutorRow";
 //css imports
 import { Button, Drawer, Space, Spin, message } from "antd";
 import "./Tutor.css";
+import { tutorData } from "../../data";
 
 const Tutor = () => {
   const navigate = useNavigate();
@@ -126,9 +127,18 @@ const Tutor = () => {
                 </tr>
               </thead>
               <tbody>
-                {tutors?.map((data, i) => {
-                  return <TutorRow data={data} key={i} />;
-                })}
+                {tutorData?.map((student, i) => (
+                  <div key={i}>
+                    <tr className="tableRow">
+                      <td>{student.name}</td>
+                      <td>{student.email}</td>
+                      <td>{student.class}</td>
+                      <td>{student.access}</td>
+                      <td>{student.edit}</td>
+                      <td>{student.delete}</td>
+                    </tr>
+                  </div>
+                ))}
               </tbody>
             </table>
           </section>

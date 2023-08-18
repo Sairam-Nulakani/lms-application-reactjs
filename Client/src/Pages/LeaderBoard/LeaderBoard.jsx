@@ -10,6 +10,7 @@ import LeaderboardRow from "../../Components/Table/LeaderboardRow";
 
 //css imports
 import "./LeaderBoard.css";
+import { studentData } from "../../data";
 
 const LeaderBoard = () => {
   const dispatch = useDispatch();
@@ -43,7 +44,7 @@ const LeaderBoard = () => {
         <section className="tableBody">
           <table>
             <thead>
-              <tr>
+              <tr className="tableRow">
                 <th>Name</th>
                 <th>Email</th>
                 <th>Class</th>
@@ -52,11 +53,7 @@ const LeaderBoard = () => {
               </tr>
             </thead>
             <tbody>
-              {students
-                .sort((a, b) => (a.totalPoints > b.totalPoints ? -1 : 1))
-                .map((data, i) => (
-                  <LeaderboardRow key={i} data={data} />
-                ))}
+              <LeaderboardRow data={studentData} />
             </tbody>
           </table>
         </section>

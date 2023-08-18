@@ -12,6 +12,7 @@ import StudentRow from "../../Components/Table/studentRow";
 //css imports
 import { Button, Drawer, Space, Spin, message } from "antd";
 import "./Student.css";
+import { data } from "../../data";
 
 const Student = () => {
   const dispatch = useDispatch();
@@ -38,7 +39,7 @@ const Student = () => {
     setOpen(false);
   };
 
-//form states and functions
+  //form states and functions
   const initialFormData = {
     name: "",
     email: "",
@@ -49,7 +50,6 @@ const Student = () => {
   const handleInputChange = (e) => {
     setFormData({ ...FormData, [e.target.name]: e.target.value });
   };
-
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -118,16 +118,16 @@ const Student = () => {
             <table>
               <thead>
                 <tr>
-                  <th>Name</th>
-                  <th>Email</th>
-                  <th>Class</th>
-                  <th>Access</th>
-                  <th>Edit</th>
-                  <th>Delete</th>
+                  <th>NAME</th>
+                  <th>EMAIL</th>
+                  <th>CLASS</th>
+                  <th>ACTIONS</th>
+                  <th>EDIT</th>
+                  <th>DELETE</th>
                 </tr>
               </thead>
               <tbody>
-                {students?.map((data, i) => {
+                {data?.map((data, i) => {
                   return <StudentRow data={data} key={i} />;
                 })}
               </tbody>

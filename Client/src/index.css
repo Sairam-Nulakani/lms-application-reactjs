@@ -22,17 +22,18 @@ li {
 :root {
   --poppins: "Poppins", sans-serif;
   --lato: "Lato", sans-serif;
-  --light: #f9f9f9;
+  --light: #36454f;
   --blue: #3c91e6;
   --light-blue: #cfe8ff;
-  --grey: #eee;
+  --grey: #36454f;
   --dark-grey: #aaaaaa;
-  --dark: #342e37;
+  --dark: black;
   --red: #db504a;
   --yellow: #ffce26;
   --light-yellow: #fff2c6;
   --orange: #fd7238;
   --light-orange: #ffe0d3;
+  --gray: #b8b8b8;
 }
 
 html {
@@ -40,6 +41,6 @@ html {
 }
 
 body {
-  background: var(--grey);
+  background: #36454f;
   overflow-x: hidden;
 }

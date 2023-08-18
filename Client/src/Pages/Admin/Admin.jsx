@@ -17,6 +17,7 @@ import { Button, Drawer } from "antd";
 
 //css imports
 import "./Admin.css";
+import { adminData, data } from "../../data";
 
 // form stat
 const initialFormData = {
@@ -116,7 +117,7 @@ const Admin = () => {
 
         {/* table component  */}
         <div className="adminData">
-          <Table Data={admins} />
+          <Table Data={adminData} />
         </div>
 
         {/* drawer component  */}

@@ -7,7 +7,7 @@ import { Dropdown } from "antd";
 
 // Image imports
 import user from "../../Assets/useravatar.png";
-import logo from "../../Assets/logo.png";
+import logo from "../../Assets/lms-logo.png";
 
 // Icon imports
 import { BiLogOut, BiUserVoice } from "react-icons/bi";
@@ -23,7 +23,6 @@ import { AiOutlineQuestion } from "react-icons/ai";
 import "./Navbar.css";
 
 const Navbar = ({ children }) => {
-
   const dispatch = useDispatch();
   const navigate = useNavigate();
 
@@ -87,7 +86,7 @@ const Navbar = ({ children }) => {
       <div id="sidebar" className={toggle ? "hide" : ""}>
         <Link href="/" className="logo">
           <div className="logoBox">
-            <img src={logo} alt="logo" />
+            {/* <img src={logo} alt="logo" /> */}
             <LuLayoutGrid
               className="menuIconHidden"
               onClick={() => setToggle(!toggle)}

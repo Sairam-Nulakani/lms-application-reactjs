@@ -5,7 +5,7 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  background-color: rgba(37, 191, 229, 0.647);
+  background-color: #36454f;
 }
 .loginContainer {
   width: 900px;
